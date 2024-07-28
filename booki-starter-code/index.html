@@ -16,17 +16,51 @@
 
 <body>
     <div class="main-container">
-        <header>
+        <header class="header">
+            <div class="header-logo">
             <a href="index.html#index"><img src="images/logo/Booki.png" alt="Logo du site Booki"></a>
-            <nav>
+            </div>
+            <nav class="header-nav">
                 <ul>
-                    <li><a href="Hebergement.html"target="_blank">Hébergements</a></li>
-                    <li><a href="Activites.html"target="_blank">Activités</a></li>
+                    <ol class="nav-liste"><a href="#Hebergement">Hébergements</a></ol>
+                    <ol class="nav-liste"><a href="#Activites">Activités</a></ol>
                 </ul>
             </nav>
         </header>
         <main>
-            <div class="hebergements-and-populaires">
+            <br>
+            <section class="filtre">
+                <div class="filtre-intro">
+                <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                </div>    
+                    <form method="" action="" class="formulaire">
+                        <div class="filtre-logo"><a href="#"><img src="images/location-dot-solid.png" alt="icône de localisation"></a></div>
+                        <div class="filtre-nom-de-ville"><label for"nom-de-ville"></label><input type="text" name="nom-de-ville" id="nom-de-ville" value="Marseille, France"></div>
+                        <div class="filtre-submit">Rechercher</div>
+                    </form>
+                    <br>
+                        <div class="filtre-theme">
+                            <h3 class="filtre-titre">Filtres</h3>
+                            <div class="choix">
+                                <div><img src="images/money-bill-wave-solid.svg" alt="icône de billet"></div><p>Économique</p>
+                            </div>
+                            <div class="choix">
+                                <div><img src="images/person-solid.svg" alt="icône de personnage humain"></div><p>Familial</p>
+                            </div>
+                            <div class="choix">
+                                <div><img src="images/heart-solid.svg" alt="icône d'un coeur"></div><p>Romantique</p>
+                            </div>
+                            <div class="choix">
+                                <div><img src="images/fire-solid.svg" alt="icône d'une flamme"></div><p>Nos pépites</p>
+                            </div>
+                        </div>
+                        <div class="filtre-info">
+                            <div><img src="images/info-solid.svg" alt="icône info"></div><p>Plus de 500 logements sont disponibles dans cette ville</p>
+                        </div>
+            </section>
+            <br>
+            <div class="hebergements-and-populaires" id="Hebergement">
                 <section class="hebergements">
 
                 </section>
@@ -96,30 +130,35 @@
                     </div>
                 </section>
             </div>
+            <br>
+            <div class="activites-Marseille" id="Activites">
+
+            </div>
+            <br>
         </main>
-        <footer>
-            <nav>
+        <footer class="footer">
+            <div>
                 <h3>À propos</h3>
                 <ul>
-                    <li><a href="footer_a_propos.html#fonctionnement" target="_blank">Fonctionnement du site</a></li>
-                    <li><a href="footer_a_propos.html#condition" target="_blank">Conditions Générales</a></li>
-                    <li><a href="footer_a_propos.html#donnees" target="_blank">Données et confidentialité</a></li>
+                    <ol>Fonctionnement du site</ol>
+                    <ol>Conditions Générales</ol>
+                    <ol>Données et confidentialité</ol>
                 </ul>
-            </nav>
-            <nav>
+            </div>
+            <div>
                 <h3>Nos hébergements</h3>
                 <ul>
-                    <li><a href="footer_hebergements.html#charte" target="_blank">Charte qualité</a></li>
-                    <li><a href="footer_hebergements.html#proposer" target="_blank">Proposer votre hôtel</a></li>
+                    <ol>Charte qualité</ol>
+                    <ol>Proposer votre hôtel</ol>
                 </ul>
-            </nav>
-            <nav>
+            </div>
+            <div>
                 <h3>Assistance</h3>
                 <ul>
-                    <li><a href="footer_assistance.html#aide" target="_blank">Centre d'aide</a></li>
-                    <li><a href="footer_assistance.html#contact" target="_blank">Nous contacter</a></li>
+                    <ol>Centre d'aide</ol>
+                    <ol>Nous contacter</ol>
                 </ul>
-            </nav>
+            </div>
         </footer>
     </div>
 </body>
