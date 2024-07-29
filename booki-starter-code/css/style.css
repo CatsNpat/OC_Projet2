@@ -227,20 +227,34 @@ ol {
 }
 
 .filtre-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px 0px 0px 10px;
     background-color: #f2f2f2;
-    padding: 5px 7px 5px 7px;
+    width: 2em;
+    height: 2em;
+}
+
+.fa-solid.fa-location-dot {
+    display: flex;
 }
 
 .filtre-nom-de-ville {
-    padding: 7px 0px 7px 0px;
+    display: flex;
+    height: 2em;
+}
+
+#nom-de-ville {
     text-align: center;
+    border-color: #f2f2f2;
 }
 
 
 .filtre-submit {
     background-color: #0065FC;
     border-radius:0px 10px 10px 0px;
+    border-color: #0065FC;
     color: white;
     text-align: center;
     padding: 7px 7px 7px 7px;
@@ -252,6 +266,8 @@ ol {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    width: 50%;
     /*background-color: pink;*/
 }
 
@@ -260,14 +276,18 @@ ol {
     justify-content: space-around;
     align-items: center;
     border: 3px #D9D9D9 solid;
-    border-radius: 50px;
+    border-radius: 2em;
     background-color: white;
-    width: 15%;
+    width: 20%;
     height: 30%;
-    
 }
 
-.choix p {
+.fa-solid {
+    display: flex;
+}
+
+.choix-p {
+    display: flex;
     font-weight: bold;
 }
 
@@ -281,17 +301,27 @@ ol {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    width: 50%;
 }
 
-.filtre-info img{
-    width: 10px;
-    height: 10px;
+.icone-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
     border: 3px #D9D9D9 solid;
-    border-radius: 15px 15px 15px 15px;
-    padding: 5px 5px 5px 5px;
-    margin-right: 10px;
+    border-radius: 50%;
 }
 
+.fa-solid.fa-info {
+    display: flex;
+}
+
+.info-p {
+    display: flex;
+    margin-left: 10px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
