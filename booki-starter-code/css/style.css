@@ -92,6 +92,7 @@ a {
 .hebergement-listing {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .hotel {
@@ -106,13 +107,10 @@ a {
 
 .hotel-image {
     display: flex;
-    border-radius: 1.25em 1.25em 0em 0em;
-}
-
-.hotel-image img {
     height: 7.75em;
     width: 15.188em;
     border-radius: 1.25em 1.25em 0em 0em;
+    object-fit: cover;
 }
 
 .hotel h3 {
@@ -183,7 +181,8 @@ a {
     margin: 0;
 }
 
-.populaires-cards .card-rating {
+.populaire-avis {
+    display: flex;
     margin-bottom: 5px;
 }
 
