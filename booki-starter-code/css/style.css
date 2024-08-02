@@ -107,7 +107,6 @@ a {
 .hotel-image {
     display: flex;
     border-radius: 1.25em 1.25em 0em 0em;
-
 }
 
 .hotel-image img {
@@ -192,15 +191,49 @@ a {
 
 .activites-Marseille {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-}
-
-.activites-Marseille {
-    background-color: var(--main-bg-color);
+    /*background-color: pink;*/
     border-radius: 20px;
     padding: 60px;
     box-sizing: border-box;
 }
+
+.activites-Marseille h2 {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+.activite-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.activite {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.25em 1.25em 1.25em 1.25em;
+    box-shadow: 0em 0.188em 0.938em rgba(0,0,0,0.1);
+}
+
+.activite-image {
+    display: flex;
+    width: 18em;
+    height: 22em;
+    border-radius: 1.25em 1.25em 0em 0em;
+    object-fit: cover;
+}
+
+.activite h3 {
+    display: flex;
+    font-size: 1em;
+    margin: 0.625em 0em 0.625em 0.50em;
+    padding: 0.625em 0em 0.625em 0.50em;
+}
+
 
 /***ajout Elisabeth***/
 
