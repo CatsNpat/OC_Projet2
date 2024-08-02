@@ -161,6 +161,7 @@ a {
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    object-fit: cover;
 }
 
 .populaires-cards .card-content {
@@ -194,7 +195,7 @@ a {
     justify-content: space-between;
     /*background-color: pink;*/
     border-radius: 20px;
-    padding: 60px;
+    padding: 30px;
     box-sizing: border-box;
 }
 
@@ -247,13 +248,17 @@ ol {
 /**footer***/
 .footer {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
     background-color: var(--main-bg-color);
-    /*border-radius: 20px;
-    padding: 30px;
-    box-sizing: border-box;*/
-    text-align: left;
+}
+
+.footer-bloc {
+    display: flex;
+    flex-direction: column;
+    margin: 0em 10em 0em 3em;
+}
+.footer-bloc h3 {
+    margin: 2em 0em 0em 0em;
 }
 
 /**header**/
