@@ -329,6 +329,7 @@ a {
 
 .filtre-intro h1 {
     margin: 0;
+    font-size: 1.25em;
 }
 
 .filtre-intro p {
@@ -494,11 +495,52 @@ a {
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 0.875em;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 0.813em;
+    }
+
+    .filtre-titre {
+        width: 100%;
+    }
+
+    .filtre-choixtab {
+        width: 100%;
+    }
+
+    .filtre-theme {
+        width: 100%;
+    }
+
+    .filtre-info {
+        width: 100%;
+    }
+
+    .hotel h3 {
+        font-size: 0.75em;
+    }
+
+    .hotel p {
+        font-size: 0.813em;
+    }
+
+    .activite-image {
+        height: 10.6em;
+    }
+
+    .activite h3 {
+        font-size: 0.875em;
+        margin: 0.625em 0em 0em 0.50em;
+    }
+
+    .footer-bloc {
+        margin: 0em 1em 0em 2em;
+    }
+
+    .footer-bloc ul {
+        font-size: 0.8em;
     }
 
 }
