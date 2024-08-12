@@ -199,7 +199,7 @@ a {
     justify-content: space-between;
     /*background-color: pink;*/
     margin-top: 3em;
-    padding: 0 1.5em 0em 1.5em;
+    padding: 0 2.5em 0em 2.5em;
     box-sizing: border-box;
 }
 
@@ -507,7 +507,7 @@ a {
     }
 
     .filtre-choixtab {
-        width: 100%;
+        width: 75%;
     }
 
     .filtre-theme {
@@ -535,8 +535,13 @@ a {
         margin: 0.625em 0em 0em 0.50em;
     }
 
+    .footer {
+        flex-wrap: nowrap; 
+    }
+
     .footer-bloc {
         margin: 0em 1em 0em 2em;
+        width: 30%;
     }
 
     .footer-bloc ul {
