@@ -512,6 +512,7 @@ a {
 
     .filtre-choixtab {
         width: 75%;
+        justify-content: space-between;
     }
 
     .filtre-theme {
