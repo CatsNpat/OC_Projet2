@@ -157,7 +157,7 @@ a {
 
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
+    margin-top: 2.063em;
 }
 
 .populaires-cards img {
@@ -367,7 +367,7 @@ a {
 .filtre-nom-de-ville {
     display: flex;
     height: 2em;
-    border: 1px #f2f2f2 solid;
+    border: 0.063em #f2f2f2 solid;
 }
 
 #nom-de-ville {
@@ -557,6 +557,10 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    body {
+        margin: 0;
+    }
+
     .main-container{
         padding: 0;
     }
@@ -576,21 +580,28 @@ a {
     .header-nav ul {
         justify-content: space-around;
         border-bottom: 1px #F2F2F2 solid;
-        padding-bottom: 1em;
     }
 
     .nav-liste {
         width: 50%;
         justify-content: center;
+        border-bottom: 0px #F2F2F2 solid;
+        padding-bottom: 1em;
+        margin: 0;
     }
 
-    .nav-liste:active{
+    .nav-liste:hover {
+        border-top: 0;
+    }
+
+    .nav-liste:active {
         border-bottom: 2px #0065fc solid;
         color: #0065fc;
     }
 
     .filtre {
-        margin-top: 0;
+        margin-top: 1.5em;
+        padding: 0em 1em 0em 1em;
     }
 
     .filtre-intro {
@@ -599,23 +610,32 @@ a {
 
     .filtre-intro h1 {
         padding-right: 1.5em;
-        margin: 1em 1em 0.5em 1em;
     }
 
-    .filtre-intro p {
-        margin: 0em 1em 0em 1em;
-        padding-left: 0.3em;
+   .filtre-intro p {
+        margin-top: 0.5em;
+    }
+
+    .filtre-nom-de-ville {
+        padding-left: 1em;
+    }
+
+    #nom-de-ville {
+        text-align: left;
     }
 
     .filtre-submit-mobile {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2.5em;
+        width: 2.5em;
         background-color: #0065FC;
         border-radius: 0.625em;
         border: 0;
-        color: white;
-        text-align: center;
-        padding: 0.563em;
-        box-shadow: 0em 0.188em 0.938em rgba(0,0,0,0.1);
+        box-shadow:  0em 0.2em 0.2em rgba(0, 0, 0, 0.30);
+        position: relative;
+        right: 5%;
     }
 
     .fa-sharp.fa-solid.fa-magnifying-glass {
@@ -624,6 +644,136 @@ a {
 
     .filtre-submit {
         display: none;
+    }
+
+    .filtre-choixtab{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .choix {
+        width: 47%;
+        justify-content: flex-start;
+        padding: 1em;
+        margin: 0.5em 0em 0.5em 0em;
+    }
+
+    .choix-p {
+        font-size: 1.1em;
+        margin: 0;
+        position: relative;
+        left: 20%;
+    }
+
+    .choix .fa-solid {
+        display: flex;
+        margin: 0;
+        scale: 1.3;
+        position: relative;
+        left: 10%;
+    }
+
+    .filtre-info {
+        flex-wrap: nowrap;
+        margin-top: 1.5em;
+    }
+
+    .icone-info {
+        height: 1.875em;
+        width: 2.5em;
+    }
+
+    .fa-solid.fa-info {
+        scale: 0.8;
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires section.hebergements {
+        background-color: white;
+    }
+
+    .hebergements-and-populaires section.populaires {
+        margin-top: 1.5em;
+        border-radius: 0;
+    }
+
+    .hebergement-listing {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hotel {
+        width: 100%;
+        }
+    
+    .herbergement-plus {
+        margin-top: 1em;
+    }
+
+    .fa-solid.fa-star {
+        scale: 0.8;
+    }
+
+    .fa-duotone.fa-solid.fa-star {
+        scale: 0.8;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires {
+        background-color: var(--main-bg-color);
+        padding: 1em;
+    }
+
+    .populaires-cards .card {
+        margin-top: 1.5em;
+    }
+
+    .populaires-cards img {
+        width: 40%;
+    }
+
+    .activites-Marseille {
+        padding: 1.8em;
+        margin-top: 0;
+    }
+
+    .activite {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .activite-listing {
+        margin-top: 1em;
+    }
+
+    .activite h3 {
+        margin: 0.625em;
+        font-size: 1em;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footer-bloc {
+        width: 100%;
+    }
+
+    .footer-bloc ul {
+        font-size: 1em;
     }
 
 }
