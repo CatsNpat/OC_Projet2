@@ -511,8 +511,12 @@ a {
     }
 
     .filtre-choixtab {
-        width: 75%;
-        justify-content: space-between;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .choix {
+        margin-left: 1.5em;
     }
 
     .filtre-theme {
@@ -647,7 +651,7 @@ a {
         display: none;
     }
 
-    .filtre-choixtab{
+    .filtre-choixtab {
         width: 100%;
         flex-wrap: wrap;
         justify-content: space-between;
