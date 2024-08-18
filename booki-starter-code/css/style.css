@@ -35,14 +35,14 @@ a {
 
 .section-title {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 .card {
     background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    border-radius: 1.25em;
+    padding: 0.313em;
+    filter: drop-shadow(0em 0.188em 0.938em rgba(0, 0, 0, 0.1));
 }
 
 .card img {
@@ -50,7 +50,7 @@ a {
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .euro {
@@ -71,8 +71,8 @@ a {
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
-    border-radius: 20px;
-    padding: 30px;
+    border-radius: 1.25em;
+    padding: 1.875em;
     box-sizing: border-box;
 }
 
@@ -162,15 +162,15 @@ a {
 
 .populaires-cards img {
     width: 33%;
-    height: 136px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    height: 8.5em;
+    border-top-left-radius: 1.25em;
+    border-bottom-left-radius: 1.25em;
     object-fit: cover;
 }
 
 .populaires-cards .card-content {
     width: 67%;
-    padding-left: 15px;
+    padding-left: 0.938em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -178,8 +178,8 @@ a {
 }
 
 .populaires-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
+    margin-top: 0.625em;
+    margin-bottom: 0.25em;
 }
 
 .populaires-cards .card-subtitle {
@@ -188,7 +188,7 @@ a {
 
 .populaire-avis {
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 0.313em;
 }
 
 /***Activités à Marseille Ajout Elisabeth***/
@@ -283,8 +283,8 @@ a {
 }
 
 .header-logo img {
-    height: 20px;
-    width: 63.6667px;
+    height: 1.25em;
+    width: 3.979em;
 }
 
 .header-nav {
@@ -308,7 +308,7 @@ a {
 }
 
 .nav-liste:hover{
-    border-top: 2px #0065fc solid;
+    border-top: 0.125em #0065fc solid;
     color: #0065fc;
 }
 
@@ -337,8 +337,8 @@ a {
 }
 
 .filtre-theme img {
-    width: 20px;
-    height: 20px;
+    width: 1.25em;
+    height: 1.25em;
 }
 
 .formulaire {
@@ -353,7 +353,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 0.625em 0em 0em 0.625em;
     background-color: #f2f2f2;
     width: 2.5em;
     height: 2.2em;
@@ -418,22 +418,22 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px #D9D9D9 solid;
+    border: 0.063em #D9D9D9 solid;
     border-radius: 2em;
     background-color: white;
-    padding: 7px;
+    padding: 0.438em;
 }
 
 .choix .fa-solid {
     display: flex;
-    margin: 10px;
+    margin: 0.625em;
     scale: 1.5;
 }
 
 .choix-p {
     display: flex;
     font-weight: bold;
-    margin: 4px;
+    margin: 0.25em;
     font-size: 1.2em;
 }
 
@@ -455,9 +455,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20px;
-    height: 20px;
-    border: 1px #D9D9D9 solid;
+    width: 1.25em;
+    height: 1.25em;
+    border: 0.063em #D9D9D9 solid;
     border-radius: 50%;
 }
 
@@ -467,7 +467,7 @@ a {
 
 .info-p {
     display: flex;
-    margin-left: 10px;
+    margin-left: 0.625em;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -485,7 +485,7 @@ a {
 
     .populaires {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 3.125em;
     }
 
     .populaires-cards {
@@ -584,13 +584,13 @@ a {
 
     .header-nav ul {
         justify-content: space-around;
-        border-bottom: 1px #F2F2F2 solid;
+        border-bottom: 0.063em #F2F2F2 solid;
     }
 
     .nav-liste {
         width: 50%;
         justify-content: center;
-        border-bottom: 0px #F2F2F2 solid;
+        border-bottom: 0em #F2F2F2 solid;
         padding-bottom: 1em;
         margin: 0;
     }
@@ -600,7 +600,7 @@ a {
     }
 
     .nav-liste:active {
-        border-bottom: 2px #0065fc solid;
+        border-bottom: 0.125em #0065fc solid;
         color: #0065fc;
     }
 
