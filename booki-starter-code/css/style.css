@@ -416,7 +416,7 @@ a {
 
 .filtre-choixtab {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 90%;
 
 }
